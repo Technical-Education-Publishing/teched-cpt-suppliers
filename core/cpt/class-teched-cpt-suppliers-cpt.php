@@ -77,7 +77,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
             'rewrite'               => array( 'slug' => 'suppliers-subject-discipline' ),
         );
     
-        register_taxonomy( 'teched-suppliers-subject-discipline', 'teched-suppliers', $args );
+        register_taxonomy( 'suppliers-subject-discipline', 'teched-suppliers', $args );
 
         $args = array(
             'hierarchical'          => true,
@@ -90,7 +90,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
             'rewrite'               => array( 'slug' => 'suppliers-grade-level' ),
         );
     
-        register_taxonomy( 'teched-suppliers-grade-level', 'teched-suppliers', $args );
+        register_taxonomy( 'suppliers-grade-level', 'teched-suppliers', $args );
 
         $args = array(
             'hierarchical'          => true,
@@ -103,7 +103,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
             'rewrite'               => array( 'slug' => 'suppliers-industry' ),
         );
     
-        register_taxonomy( 'teched-suppliers-industry', 'teched-suppliers', $args );
+        register_taxonomy( 'suppliers-industry', 'teched-suppliers', $args );
 
 	}
 
