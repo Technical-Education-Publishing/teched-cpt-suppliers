@@ -68,7 +68,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
 
         $args = array(
             'hierarchical'          => true,
-            'labels'                => $this->get_taxonomy_labels( __( 'Subject/Discipline', 'teched-cpt-suppliers' ), __( 'Subjects/Disciplines', 'teched-cpt-suppliers' ) ),
+            'labels'                => $this->get_taxonomy_labels( __( 'Subject', 'teched-cpt-suppliers' ), __( 'Subjects/Disciplines', 'teched-cpt-suppliers' ) ),
             'show_in_menu'          => true,
             'show_ui'               => true,
             'show_admin_column'     => true,
