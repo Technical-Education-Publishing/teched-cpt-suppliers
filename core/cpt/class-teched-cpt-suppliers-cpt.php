@@ -4,7 +4,7 @@
  *
  * Creates the post type.
  *
- * @since {{VERSION}}
+ * @since 1.0.0
  */
 
 // Exit if accessed directly
@@ -34,7 +34,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
 	/**
 	 * CPT_TechEd_CPT_Suppliers constructor.
 	 *
-	 * @since {{VERSION}}
+	 * @since 1.0.0
 	 */
 	function __construct() {
 
@@ -61,7 +61,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
 	 * Registers our Directory Item Categories Taxonomy
 	 *
 	 * @access	public
-	 * @since	{{VERSION}}
+	 * @since	1.0.0
 	 * @return  void
 	 */
 	public function register_taxonomy() {
@@ -114,7 +114,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
      * @param   [string]  $plural     Plural Label
      * @param   [string]  $menu_name  Menu Label. Defaults to Plural Label
      *
-     * @since   {{VERSION}}
+     * @since   1.0.0
      * @return  [array]               Taxonomy Labels
      */
     private function get_taxonomy_labels( $singular, $plural, $menu_name = false ) {
@@ -150,7 +150,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
 	 * Enqueues the necessary JS/CSS on the Suppliers Screen
 	 *
 	 * @access	public
-	 * @since	{{VERSION}}
+	 * @since	1.0.0
 	 * @return  void
 	 */
 	public function admin_enqueue_scripts() {
@@ -173,7 +173,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
 	 * Registers our Meta Boxes
 	 *
 	 * @access	public
-	 * @since	{{VERSION}}
+	 * @since	1.0.0
 	 * @return  void
 	 */
 	public function add_meta_boxes() {
@@ -201,7 +201,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
 	 * Adds Metabox Content for our Suppliers Item Occurrences Meta Box
 	 *
 	 * @access	public
-	 * @since	{{VERSION}}
+	 * @since	1.0.0
 	 * @return  void
 	 */
 	public function suppliers_metabox_content() {
