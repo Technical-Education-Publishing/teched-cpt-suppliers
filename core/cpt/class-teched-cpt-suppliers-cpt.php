@@ -21,6 +21,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
 		'hierarchical' => false,
 		'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'custom-fields' ),
 		'has_archive' => true,
+        'exclude_from_search' => true,
 		'rewrite' => array(
 			'slug' => 'supplier',
 			'with_front' => false,
