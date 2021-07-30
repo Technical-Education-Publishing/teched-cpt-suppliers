@@ -3,7 +3,7 @@
  * Plugin Name: CPT Suppliers
  * Plugin URI: https://github.com/realbig/teched-cpt-suppliers
  * Description: Holds the Suppliers Post Type
- * Version: 1.0.1
+ * Version: 1.0.2
  * Text Domain: teched-cpt-suppliers
  * Author: Real Big Marketing
  * Author URI: https://realbigmarketing.com/
