@@ -19,7 +19,7 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
 	public $icon = 'networking';
 	public $post_args = array(
 		'hierarchical' => false,
-		'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'custom-fields' ),
+		'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'custom-fields', 'excerpt' ),
 		'has_archive' => true,
         'exclude_from_search' => true,
 		'rewrite' => array(
