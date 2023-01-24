@@ -308,8 +308,17 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
         teched_suppliers_do_field_toggle( array(
             'name' => 'featured',
             'group' => 'suppliers_featured',
-            'label' => '<stronge>' . sprintf( __( 'Is this a Featured %s?', 'teched-cpt-suppliers' ), $this->label_singular ) . '</strong>',
+            'label' => '<strong>' . sprintf( __( 'Is this a Featured %s?', 'teched-cpt-suppliers' ), $this->label_singular ) . '</strong>',
         ) );
+
+        teched_suppliers_do_field_media( array(
+            'name' => 'featured_extra_image',
+            'type' => 'image',
+            'group' => 'suppliers_featured',
+            'label' => '<strong>' . sprintf( __( 'Additional Image to show for Featured %s', 'teched-cpt-suppliers' ), $this->label_plural ) . '</strong>',
+        ) );
+
+        teched_suppliers_init_field_group( 'suppliers_featured' );
 
     }
 	
