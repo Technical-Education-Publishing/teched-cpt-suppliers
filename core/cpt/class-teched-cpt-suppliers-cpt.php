@@ -305,10 +305,16 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
     
     public function suppliers_featured_metabox_content() {
 
-        teched_suppliers_do_field_toggle( array(
+        teched_suppliers_do_field_select( array(
             'name' => 'featured',
             'group' => 'suppliers_featured',
             'label' => '<strong>' . sprintf( __( 'Is this a Featured %s?', 'teched-cpt-suppliers' ), $this->label_singular ) . '</strong>',
+            'options' => array(
+                '0' => __( 'Tier 1 / Not Featured', 'teched-cpt-suppliers' ),
+                '1' => __( 'Tier 2', 'teched-cpt-suppliers' ),
+                '2' => __( 'Tier 3', 'teched-cpt-suppliers' ),
+            ),
+            'default' => '0',
         ) );
 
         teched_suppliers_do_field_media( array(
