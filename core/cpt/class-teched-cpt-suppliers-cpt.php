@@ -321,8 +321,16 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
             'name' => 'featured_extra_image',
             'type' => 'image',
             'group' => 'suppliers_featured',
-            'label' => '<strong>' . sprintf( __( 'Additional Image to show for Featured %s', 'teched-cpt-suppliers' ), $this->label_plural ) . '</strong>',
+            'label' => '<strong>' . sprintf( __( 'Additional Image to show for Tier 2 and Tier 3 Featured %s', 'teched-cpt-suppliers' ), $this->label_plural ) . '</strong>',
         ) );
+
+        ?>
+
+        <p class="description">
+            <?php printf( __( 'To set the large image above Tier 3 Featured %s, set the "Featured Image" field by scrolling down this page.', 'teched-cpt-suppliers' ), $this->label_plural ); ?>
+        </p>
+
+        <?php
 
         teched_suppliers_init_field_group( 'suppliers_featured' );
 
