@@ -9,7 +9,7 @@
  * Author URI: https://realbigmarketing.com/
  * Contributors: d4mation
  * GitHub Plugin URI: realbig/teched-cpt-suppliers
- * GitHub Branch: develop
+ * GitHub Branch: master
  */
 
 // Exit if accessed directly
