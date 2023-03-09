@@ -127,9 +127,9 @@ class CPT_TechEd_CPT_Suppliers extends RBM_CPT {
         $labels = array(
             'name'                       => $menu_name,
             'singular_name'              => $singular,
-            'search_items'               => sprintf( __( 'Search %', 'teched-cpt-suppliers' ), $plural ),
+            'search_items'               => sprintf( __( 'Search %s', 'teched-cpt-suppliers' ), $plural ),
             'popular_items'              => sprintf( __( 'Popular %s', 'teched-cpt-suppliers' ), $plural ),
-            'all_items'                  => sprintf( __( 'All %', 'teched-cpt-suppliers' ), $plural ),
+            'all_items'                  => sprintf( __( 'All %s', 'teched-cpt-suppliers' ), $plural ),
             'parent_item'                => sprintf( __( 'Parent %s', 'teched-cpt-suppliers' ), $singular ),
             'parent_item_colon'          => sprintf( __( 'Parent %s:', 'teched-cpt-suppliers' ), $singular ),
             'edit_item'                  => sprintf( __( 'Edit %s', 'teched-cpt-suppliers' ), $singular ),
